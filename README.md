@@ -1,3 +1,5 @@
-practice for theodinproject.com/courses/foundations/lessons/html-css
+# Practice
 
-please be nice
+## theodinproject.com/courses/foundations/lessons/html-css
+
+ - Please be nice
