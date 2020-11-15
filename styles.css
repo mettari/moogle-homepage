@@ -30,12 +30,17 @@ body {
     list-style-type: none;
 }
 
+.white {
+    background: -webkit-linear-gradient(#dfd8d8, #918585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .searchBar {
     display: flex;
     border: 1px solid #dfe1e5;
     top: 300;
-    max-width: 582px;
-    min-width: 482px;
+    width: 582px;
     height: 44px;
     border-radius: 50px;
     display: block;
@@ -51,11 +56,8 @@ body {
 input[type="text"] {
     margin-left: 15px;
     margin-top: -5px;
-    border: 0px;
     font-size: 18px;
-}
-
-input:focus {
+    width: 500px;
     border: none;
 }
 
@@ -87,18 +89,8 @@ h1  {
     padding-top: 109px;
 }
 
-.footer-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
-.footer-menu li  {
-    float: left;
-}
-
-.footer-menu li a {
-    display: block;
+.footer ul {
     color: black;
     opacity: 0.75;
     text-align: center;
@@ -113,10 +105,29 @@ h1  {
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     display: block;
-    float: left;
-    line-height: 40px;
+    line-height: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-li a:hover {
+.please-move-left {
+    margin-left: -35px;
+}
+
+.left-foot li {
+    float: left;
+    padding-left: 22px;
+    display: block;
+}
+
+.right-foot li {
+    float: right;
+    padding-right: 22px;
+    display: block;
+}
+
+li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
