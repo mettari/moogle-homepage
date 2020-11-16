@@ -58,6 +58,7 @@ input[type="text"] {
     margin-top: -5px;
     font-size: 18px;
     width: 500px;
+    outline: none;
     border: none;
 }
 
@@ -90,11 +91,10 @@ h1  {
 }
 
 
-.footer ul {
-    color: black;
-    opacity: 0.75;
+.footer li {
     text-align: center;
     text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .footer {
@@ -104,26 +104,24 @@ h1  {
     right: 0;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    display: block;
-    line-height: 30px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    font-size: 14px;
+    color: #5f6368;
 }
 
 .please-move-left {
-    margin-left: -35px;
+    margin-left: -37px;
 }
 
 .left-foot li {
     float: left;
-    padding-left: 22px;
+    padding-left: 27px;
     display: block;
 }
 
 .right-foot li {
     float: right;
-    padding-right: 22px;
+    padding-right: 27px;
     display: block;
 }
 

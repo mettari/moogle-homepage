@@ -23,3 +23,12 @@ with the help/suggestion of bonjuru on the odin discord ive made some adjustment
 - cleaned up white lines in html
 - introduced some more classes to clean up the in-line css within my html
 - changed footer into 2 seperate lists
+
+---------------------------
+
+11/16/2020 8:12AM PST
+
+- changed input"text" border+outline to none for a cleaner search bar
+- fixed order of footer right list;
+    from: Settings > Terms > Privacy
+    to: Privacy > Terms > Settings
